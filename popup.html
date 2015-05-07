@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="popup.js"></script>
+</head>
+<body>
+    <form id="add-product">
+      <p><label for="title">Title</label><br />
+      <input type="text" id="title" name="title" size="50" value="" /></p>
+      <p><label for="brand">Brand</label><br />
+      <input type="text" id="brand" name="brand" size="50" value="" /></p>
+      <p><label for="price">Price</label><br />
+      <input type="text" id="price" name="price" size="50" value="" /></p>
+      <p><label for="image_url">Image image_url</label><br />
+      <input type="text" id="image_url" name="image_url" size="50" value="" /></p>
+      <p><label for="url">Url</label><br />
+      <input type="text" id="url" name="url" size="50" value="" /></p>
+      <p><label for="summary">Description</label><br />
+      <textarea id="summary" name="summary" rows="6" cols="35"></textarea></p>
+      <p><label for="category">Category</label><br />
+      <input type="text" id="category" name="category" size="50" value="" /></p>
+      <p>
+          <input id="save" type="submit" value="Save Product" />
+          <span id="status-display"></span>
+      </p>
+    </form>
+  </body>
+</html>

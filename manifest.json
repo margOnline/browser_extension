@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "M&S Pin it",
+  "description": "Post product data from M&S pages to Stylist d/b",
+  "version": "0.2",
+  "background": {
+      "scripts": ["event.js"],
+      "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html",
+    "default_title": "pin it!"
+  },
+  "permissions": [
+    "tabs",
+    "http://mywebsite.com/*",
+    "https://mywebsite.com/*"
+  ]
+}
